@@ -46,7 +46,7 @@
    #EndIf
 #ENDAT
 #!----------------------------------------------------------------------------------------------------
-#AT(%WindowEventHandling,'AlertKey'),priority(6000),Where(%NoGloALTButtonFix=0)
+#AT(%WindowEventHandling,'AlertKey'),priority(4000),Where(%NoGloALTButtonFix=0)
    #If(%WindowStateMent)
     #!If(%MenuBarStateMent)
    ! Only select the menu if no window was open
